@@ -1,16 +1,16 @@
-library(caret)# for faster Classification and Regression models
-library(dplyr)# for faster data manipulation
-library(ggplot2)# for visualization
-library(mice)# for finding missing values and imputation
-library(corrgram)# to create nice correlation visualization plots
+library(caret)# Classification and Regression models
+library(dplyr)# data manipulation
+library(ggplot2)# visualization
+library(mice)# missing values and imputation
+library(corrgram)# correlation visualized
 library(klaR)#for using kmeans on categorical values called kmodes
-library(earth)# to find important variables
+library(earth)# variables
 library(reshape2)
-library(klaR)# for using kmodes required for categorical kmeans
+library(klaR)# ABOVE
 library(gam)
 library(visreg)
 library(leaps)
-library(elasticnet)# for lasso and ridge regression
+library(elasticnet)# for regression
 library(pls)
 
 
